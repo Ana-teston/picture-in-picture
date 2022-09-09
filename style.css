@@ -10,19 +10,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(37, 37, 37);
+  background-color: rgb(238,238,228);
   
 }
 .button-container {
-  border: 2px solid rgba(246, 244, 244, 0.459);
+  border: 2px solid rgba(246, 244, 244, 0.309);
   padding: 10px;
   border-radius: 8px;
-  box-shadow: inset 0 20px 4px -19px rgb(179, 179, 179);
-  background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+  box-shadow: inset 0 20px 4px -19px rgb(207, 205, 205);
+  background: white;
 
 }
 .button-container:hover {
-  background: linear-gradient(to left, #FAFFD1, #A1FFCE);
+  background: linear-gradient(to left, white);
 }
 
 button {
@@ -34,12 +34,17 @@ button {
   height: 75px;
   font-family: 'Work Sans', sans-serif;
   color: white;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.647);
-  background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.599);
+  background: white;
   font-size: 30px;
   box-shadow: inset 0 20px 4px -19px rgb(179, 179, 179), 0 12px 12px 0 rgba(0,  0, 0, 0.2);;
 }
 
 button:hover {
-  background: linear-gradient(to left, #FAFFD1, #A1FFCE);
+  background:white;
+}
+
+button:active {
+   transform: translateY(3px);
+   box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
