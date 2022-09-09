@@ -1,9 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
 html {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  min-height: 100vh;
-  background-color:azure;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(37, 37, 37);
+  
+}
+.button-container {
+  border: 2px solid rgba(246, 244, 244, 0.459);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: inset 0 20px 4px -19px rgb(179, 179, 179);
+  background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+
+}
+.button-container:hover {
+  background: linear-gradient(to left, #FAFFD1, #A1FFCE);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border-color: rgba(203, 200, 200, 0.305);
+  border-radius: 8px;
+  width: 120px;
+  height: 75px;
+  font-family: 'Work Sans', sans-serif;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.647);
+  background: linear-gradient(to right, #FAFFD1, #A1FFCE);
+  font-size: 30px;
+  box-shadow: inset 0 20px 4px -19px rgb(179, 179, 179), 0 12px 12px 0 rgba(0,  0, 0, 0.2);;
+}
+
+button:hover {
+  background: linear-gradient(to left, #FAFFD1, #A1FFCE);
 }
